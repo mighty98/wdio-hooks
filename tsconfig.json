@@ -1,0 +1,16 @@
+{
+  "ts-node": { "files": true },
+  "compilerOptions": {
+    "outDir": "./.tsbuild/",
+    "sourceMap": false,
+    "module": "CommonJS",
+    "target": "ES2019",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "types": ["node", "webdriverio/async", "@wdio/jasmine-framework", "@wdio/shared-store-service"]
+  }
+}
